@@ -1,0 +1,58 @@
+const MainColors = {
+  blue: '#16ABF8',
+  blue1: '#428BC1',
+  white: '#FFFFFF',
+  red: '#72151b',
+  redstatus: '#ED4C5C',
+  grey: '#E5E5E5',
+  grey1: '#5B606B',
+  yellow: '#ffe268',
+  green: '#00A790',
+  black: '#000000',
+  black1: '#555555',
+  white1: '#E5E5E5',
+  greenbold: '#34A853',
+  orange: '#F8A541',
+  purple: '#8942C1',
+};
+
+export const colors = {
+  btn: {
+    blue: MainColors.blue,
+    red: MainColors.red,
+    white: MainColors.white,
+  },
+  border: {
+    blue: MainColors.blue,
+    grey: MainColors.grey,
+    black: MainColors.black,
+  },
+  text: {
+    blue: MainColors.blue,
+    white: MainColors.white,
+    red: MainColors.red,
+    grey: MainColors.grey1,
+    black: MainColors.black,
+    green: MainColors.green,
+    black1: MainColors.black1,
+  },
+  bg: {
+    red: MainColors.red,
+    redstatus: MainColors.redstatus,
+    white: MainColors.white,
+    white1: MainColors.white1,
+    blue: MainColors.blue,
+    blue1: MainColors.blue1,
+    grey: MainColors.grey,
+    yellow: MainColors.yellow,
+    green: MainColors.green,
+    orange: MainColors.orange,
+    purple: MainColors.purple,
+  },
+  icon: {
+    blue: MainColors.blue,
+    white: MainColors.white,
+    red: MainColors.red,
+    grey: MainColors.grey1,
+  },
+};
